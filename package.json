@@ -1,0 +1,22 @@
+{
+  "name": "org.url.test",
+  "version": "1.0.0",
+  "description": "Url shorten program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "author": "Noel King",
+  "license": "NONE",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.23",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.3",
+    "supertest": "^6.1.3"
+  }
+}
